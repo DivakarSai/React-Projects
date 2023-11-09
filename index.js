@@ -1,11 +1,26 @@
-import { createRoot } from 'react-dom/client';
-import React from 'react';
 
-function NavigationBar() {
-  // TODO: Actually implement a navigation bar
-  return <h1>Hello from React!</h1>;
+
+
+const myLibrary = [];
+
+
+
+function Book(name) {
+  // the constructor...
+  this.name = name;
+
+
 }
 
-const domNode = document.getElementById('navigation');
-const root = createRoot(domNode);
-root.render(<NavigationBar />);
+function addBookToLibrary(book) {
+
+
+  // add a book to the list
+  book_element = document.createElement('li');
+
+
+  
+
+
+
+}
